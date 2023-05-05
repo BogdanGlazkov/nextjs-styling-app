@@ -1,5 +1,11 @@
+import styles from "../styles/Contact.module.scss";
+
 function Contact() {
-  return <h2>Contact Page</h2>;
+  return (
+    <div>
+      <h2 className={styles.highlightscss}>Contact Page</h2>
+    </div>
+  );
 }
 
 export default Contact;
